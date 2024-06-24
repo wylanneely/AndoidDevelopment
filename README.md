@@ -1,3 +1,3 @@
 # AndoidDevelopment
 
-use Kotlinr and Android Studio
+use Kotlin and Android Studio
