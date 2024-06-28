@@ -34,6 +34,14 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+
+@Composable
+fun Explaination(name: String, modifier: Modifier = Modifier) {
+    Surface {
+        Text(text = "Testing")
+    }
+}
+
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Surface(color = Color.Red) {
