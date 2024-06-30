@@ -72,5 +72,7 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-gson:$retrofitVersion")
 
     implementation("androidx.compose.runtime:runtime-livedata:1.6.8")
+    implementation("io.coil-kt:coil-compose:2.6.0")
+
 
 }
