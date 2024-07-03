@@ -32,10 +32,8 @@ fun ListDemo() {
 
 @Composable
 fun LazyColumnDemo() {
-    var scrollState = rememberScrollState()
     var myList = getAllQuoteResources()
      LazyColumn(
-         modifier = Modifier.verticalScroll(scrollState),
          content = {
         itemsIndexed(myList, itemContent = { index, item ->
             QuoteViewItem(quoteResource = item)
