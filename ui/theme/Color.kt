@@ -1,4 +1,4 @@
-package com.wylan.apps.realtimeweather.ui.theme
+package com.wylan.apps.listdemo.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
